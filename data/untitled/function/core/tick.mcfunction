@@ -5,7 +5,7 @@ execute as @a unless score @s untitled.selection_id matches 0.. run scoreboard p
 execute as @a[scores={untitled.selection_id=0}] run function untitled:core/init_id
 #execute if items entity @a weapon.* *[custom_data~{card:1b}] as @a at @s anchored eyes positioned ^ ^ ^ anchored feet run function untitled:held_card/start_raycast
 #execute as @a if items entity @s weapon.* *[custom_data~{card:1b},!custom_data~{hammer:1b}] run function untitled:held_card/check_structure_placement
-execute as @a at @s anchored eyes positioned ^ ^ ^ anchored feet run function untitled:held_card/start_raycast
+#execute as @a at @s anchored eyes positioned ^ ^ ^ anchored feet run function untitled:held_card/start_raycast
 execute as @a unless items entity @s weapon.* *[custom_data~{hammer:1b}] run function untitled:held_card/check_structure_placement
 execute as @a if items entity @s weapon.* *[custom_data~{hammer:1b}] run function untitled:held_card/check_hammer_usage
 function untitled:restraint/controls/walk

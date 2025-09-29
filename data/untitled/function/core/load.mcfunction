@@ -19,3 +19,12 @@ scoreboard objectives add untitled.temp_y dummy
 scoreboard objectives add untitled.temp_z dummy
 scoreboard objectives add untitled.stack_count dummy
 scoreboard objectives add untitled.stack_size dummy
+
+#controls
+scoreboard objectives add untitled.motion_speed dummy
+scoreboard objectives add untitled.walk_speed dummy
+scoreboard objectives add untitled.crouch_speed dummy
+scoreboard objectives add untitled.sprint_speed dummy
+scoreboard objectives add untitled.temp_motion dummy
+
+scoreboard objectives add untitled.momentum_timer dummy
