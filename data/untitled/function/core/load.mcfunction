@@ -28,3 +28,6 @@ scoreboard objectives add untitled.sprint_speed dummy
 scoreboard objectives add untitled.temp_motion dummy
 
 scoreboard objectives add untitled.momentum_timer dummy
+
+scoreboard players set #-1 untitled.temp -1
+scoreboard players set #2 untitled.temp 2
