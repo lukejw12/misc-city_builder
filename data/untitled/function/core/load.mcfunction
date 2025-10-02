@@ -31,3 +31,6 @@ scoreboard objectives add untitled.momentum_timer dummy
 
 scoreboard players set #-1 untitled.temp -1
 scoreboard players set #2 untitled.temp 2
+scoreboard players set #3 untitled.temp 3
+team add untitled.no_collision
+team modify untitled.no_collision collisionRule never
